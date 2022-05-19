@@ -1,0 +1,44 @@
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from users where userName = '123456789' and password = '123456789' 
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from users where userName = '123456789' and password = '123456789' 
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from users where userName = '123456789' and password = '123456789' 
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 42 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 41 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 40 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 39 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 38 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 37 WHERE id=10
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 21 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 20 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 19 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 18 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 17 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 16 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 15 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 14 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 13 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 12 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 11 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 10 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 
+com.mysql.cj.jdbc.ClientPreparedStatement: UPDATE product SET Quantity = 9 WHERE id=11
+com.mysql.cj.jdbc.ClientPreparedStatement: Select * from product 

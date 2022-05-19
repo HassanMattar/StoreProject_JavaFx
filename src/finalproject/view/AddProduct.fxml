@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="737.0" style="-fx-background-color: #20120f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddProductController">
+   <children>
+      <ImageView fitHeight="536.0" fitWidth="713.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/ImageDesign/www.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="369.0" layoutY="47.0" opacity="0.82" prefHeight="402.0" prefWidth="271.0" style="-fx-background-color: #b5b5b5;">
+         <children>
+            <TextField fx:id="quantityAdd" layoutX="152.0" layoutY="93.0" prefHeight="25.0" prefWidth="103.0" promptText="Enter Quantity " style="-fx-background-color: #9c2b27; -fx-text-inner-color: white;">
+               <effect>
+                  <BoxBlur iterations="0" />
+               </effect>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Button fx:id="AddButton" layoutX="59.0" layoutY="357.0" mnemonicParsing="false" onAction="#AddAll" prefHeight="30.0" prefWidth="153.0" style="-fx-background-color: # a79999;" text="Add" textFill="#b91515">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="75.0" layoutY="14.0" prefHeight="52.0" prefWidth="132.0" text="Add clothes" textFill="#9c2b27">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="90.0" prefHeight="25.0" prefWidth="112.0" text="Quantity  :" textFill="#2f37d7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="125.0" prefHeight="25.0" prefWidth="103.0" text="type  :" textFill="#2f37d7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="159.0" prefHeight="25.0" prefWidth="112.0" text="Price  :" textFill="#2f37d7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutY="199.0" prefHeight="25.0" prefWidth="112.0" text="Image :" textFill="#2f37d7">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="imageAdd" layoutX="148.0" layoutY="199.0" mnemonicParsing="false" onAction="#choiseImage" prefHeight="31.0" prefWidth="103.0" style="-fx-background-color: #9c2b27;" text="choise Image" textFill="#e8e4e4">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <TextField fx:id="priceAdd" layoutX="152.0" layoutY="161.0" prefHeight="25.0" prefWidth="103.0" promptText="Enter Price" style="-fx-background-color: #9c2b27; -fx-text-inner-color: white;">
+               <effect>
+                  <BoxBlur iterations="0" />
+               </effect>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <TextField fx:id="typeValue" layoutX="152.0" layoutY="128.0" prefHeight="25.0" prefWidth="103.0" promptText="Enter Type" style="-fx-background-color: #9c2b27; -fx-text-inner-color: white;">
+               <effect>
+                  <BoxBlur iterations="0" />
+               </effect>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <ImageView fx:id="imageView" fitHeight="85.0" fitWidth="141.0" layoutX="5.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="fill" layoutX="39.0" layoutY="323.0" prefHeight="25.0" prefWidth="181.0" textFill="#160e8d">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <VBox layoutX="10.0" prefHeight="495.0" prefWidth="189.0" style="-fx-background-color: #c3d2ea;">
+         <children>
+            <Label prefHeight="39.0" prefWidth="179.0" text="Clothes Store" textFill="#8a0c0c">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <ImageView fitHeight="190.0" fitWidth="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/ImageDesign/logo5.jpg" />
+               </image>
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <VBox alignment="TOP_CENTER" prefHeight="99.0" prefWidth="213.0">
+               <children>
+                  <Button fx:id="MyProduuct" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#viewMyCard" prefHeight="56.0" prefWidth="134.0" style="-fx-background-color: #a72828;" text="My Product">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="MyCard" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#viewMyCard" prefHeight="42.0" prefWidth="144.0" style="-fx-background-color: green;" text="Add Product">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="logoutButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#logout" prefHeight="56.0" prefWidth="134.0" style="-fx-background-color: #a72828;" text="LogOut">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
